@@ -1,21 +1,21 @@
 export default function InfoSection() {
     
-    return <section class="info_section layout_padding2">
-    <div class="container">
-      <div class="info_logo">
+    return <section className="info_section layout_padding2">
+    <div className="container">
+      <div className="info_logo">
         <h2>
           HandTime
         </h2>
       </div>
-      <div class="row">
+      <div className="row">
 
-        <div class="col-md-3">
-          <div class="info_contact">
+        <div className="col-md-3">
+          <div className="info_contact">
             <h5>
               About Shop
             </h5>
             <div>
-              <div class="img-box">
+              <div className="img-box">
                 <img src="images/location-white.png" width="18px" alt=""/>
               </div>
               <p>
@@ -23,7 +23,7 @@ export default function InfoSection() {
               </p>
             </div>
             <div>
-              <div class="img-box">
+              <div className="img-box">
                 <img src="images/telephone-white.png" width="12px" alt=""/>
               </div>
               <p>
@@ -31,7 +31,7 @@ export default function InfoSection() {
               </p>
             </div>
             <div>
-              <div class="img-box">
+              <div className="img-box">
                 <img src="images/envelope-white.png" width="18px" alt=""/>
               </div>
               <p>
@@ -40,8 +40,8 @@ export default function InfoSection() {
             </div>
           </div>
         </div>
-        <div class="col-md-3">
-          <div class="info_info">
+        <div className="col-md-3">
+          <div className="info_info">
             <h5>
               Informations
             </h5>
@@ -51,51 +51,51 @@ export default function InfoSection() {
           </div>
         </div>
 
-        <div class="col-md-3">
-          <div class="info_insta">
+        <div className="col-md-3">
+          <div className="info_insta">
             <h5>
               Instagram
             </h5>
-            <div class="insta_container">
-              <div class="row m-0">
-                <div class="col-4 px-0">
+            <div className="insta_container">
+              <div className="row m-0">
+                <div className="col-4 px-0">
                   <a href="">
-                    <div class="insta-box b-1">
-                      <img src="images/w1.png" alt=""/>
+                    <div className="insta-box b-1">
+                      <img src="images/w1.jpg" alt=""/>
                     </div>
                   </a>
                 </div>
-                <div class="col-4 px-0">
+                <div className="col-4 px-0">
                   <a href="">
-                    <div class="insta-box b-1">
-                      <img src="images/w2.png" alt=""/>
+                    <div className="insta-box b-1">
+                      <img src="images/w2.jpg" alt=""/>
                     </div>
                   </a>
                 </div>
-                <div class="col-4 px-0">
+                <div className="col-4 px-0">
                   <a href="">
-                    <div class="insta-box b-1">
-                      <img src="images/w3.png" alt=""/>
+                    <div className="insta-box b-1">
+                      <img src="images/w3.jpg" alt=""/>
                     </div>
                   </a>
                 </div>
-                <div class="col-4 px-0">
+                <div className="col-4 px-0">
                   <a href="">
-                    <div class="insta-box b-1">
+                    <div className="insta-box b-1">
                       <img src="images/w4.png" alt=""/>
                     </div>
                   </a>
                 </div>
-                <div class="col-4 px-0">
+                <div className="col-4 px-0">
                   <a href="">
-                    <div class="insta-box b-1">
+                    <div className="insta-box b-1">
                       <img src="images/w5.png" alt=""/>
                     </div>
                   </a>
                 </div>
-                <div class="col-4 px-0">
+                <div className="col-4 px-0">
                   <a href="">
-                    <div class="insta-box b-1">
+                    <div className="insta-box b-1">
                       <img src="images/w6.png" alt=""/>
                     </div>
                   </a>
@@ -105,8 +105,8 @@ export default function InfoSection() {
           </div>
         </div>
 
-        <div class="col-md-3">
-          <div class="info_form ">
+        <div className="col-md-3">
+          <div className="info_form ">
             <h5>
               Newsletter
             </h5>
@@ -116,18 +116,18 @@ export default function InfoSection() {
                 Subscribe
               </button>
             </form>
-            <div class="social_box">
-              <a href="">
+            <div className="social_box">
+              <a href="https://www.facebook.com">
                 <img src="images/fb.png" alt=""/>
               </a>
-              <a href="">
+              <a href="https://x.com/home">
                 <img src="images/twitter.png" alt=""/>
               </a>
-              <a href="">
+              <a href="https://www.linkedin.com/">
                 <img src="images/linkedin.png" alt=""/>
               </a>
-              <a href="">
-                <img src="images/youtube.png" alt=""/>
+              <a href="https://www.youtube.com">
+                <img src="images/youtube.png" alt="youtube"/>
               </a>
             </div>
           </div>
@@ -136,3 +136,4 @@ export default function InfoSection() {
     </div>
   </section>
 }
+

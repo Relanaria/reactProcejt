@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import HeaderSection from './components/headerSection';
 import ServiceSection from './components/ServiceSection';
 import AboutSection from './components/AboutSection';

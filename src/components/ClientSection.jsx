@@ -26,24 +26,24 @@ const arrOfPersons = [person1, person2];
 
 export default function ClientSection() {
     
-    return  <section class="client_section layout_padding-bottom">
-    <div class="container">
-      <div class="heading_container heading_center">
+    return  <section className="client_section layout_padding-bottom">
+    <div className="container">
+      <div className="heading_container heading_center">
         <h2>
           Testimonial
         </h2>
       </div>
     </div>
-    <div id="customCarousel2" class="carousel slide" data-ride="carousel">
-      <div class="carousel-inner">
+    <div id="customCarousel2" className="carousel slide" data-ride="carousel">
+      <div className="carousel-inner">
 
         <DefaultCarouselItem person={defaultPerson}/>
 
-        {arrOfPersons.map(p => <CouselItem person={p}/>)}
+        {arrOfPersons.map(p => <CouselItem key={p.name} person={p}/>)}
 
       </div>
-      <ol class="carousel-indicators">
-        <li data-target="#customCarousel2" data-slide-to="0" class="active"></li>
+      <ol className="carousel-indicators">
+        <li data-target="#customCarousel2" data-slide-to="0" className="active"></li>
         <li data-target="#customCarousel2" data-slide-to="1"></li>
         <li data-target="#customCarousel2" data-slide-to="2"></li>
       </ol>

@@ -1,16 +1,16 @@
 export default function ContactSection() {
     
 
-    return <section class="contact_section layout_padding">
-    <div class="container">
-      <div class="heading_container">
+    return <section className="contact_section layout_padding">
+    <div className="container">
+      <div className="heading_container">
         <h2>
           Contact Us
         </h2>
       </div>
-      <div class="row">
-        <div class="col-md-6">
-          <div class="form_container">
+      <div className="row">
+        <div className="col-md-6">
+          <div className="form_container">
             <form action="">
               <div>
                 <input type="text" placeholder="Your Name" />
@@ -22,9 +22,9 @@ export default function ContactSection() {
                 <input type="email" placeholder="Email" />
               </div>
               <div>
-                <input type="text" class="message-box" placeholder="Message" />
+                <input type="text" className="message-box" placeholder="Message" />
               </div>
-              <div class="btn_box">
+              <div className="btn_box">
                 <button>
                   SEND
                 </button>
@@ -32,9 +32,9 @@ export default function ContactSection() {
             </form>
           </div>
         </div>
-        <div class="col-md-6 ">
-          <div class="map_container">
-            <div class="map">
+        <div className="col-md-6 ">
+          <div className="map_container">
+            <div className="map">
               <div id="googleMap"></div>
             </div>
           </div>

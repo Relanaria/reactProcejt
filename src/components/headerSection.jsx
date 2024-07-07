@@ -1,15 +1,15 @@
 export default function HeaderSection() {
   return (
-    <div class="hero_area">
-      <header class="header_section">
-        <div class="container-fluid">
-          <nav class="navbar navbar-expand-lg custom_nav-container ">
-            <a class="navbar-brand" href="index.html">
+    <div className="hero_area">
+      <header className="header_section">
+        <div className="container-fluid">
+          <nav className="navbar navbar-expand-lg custom_nav-container ">
+            <a className="navbar-brand" href="index.html">
               <span>HandTime</span>
             </a>
 
             <button
-              class="navbar-toggler"
+              className="navbar-toggler"
               type="button"
               data-toggle="collapse"
               data-target="#navbarSupportedContent"
@@ -17,44 +17,47 @@ export default function HeaderSection() {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span class=""> </span>
+              <span className=""> </span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav  ">
-                <li class="nav-item active">
-                  <a class="nav-link" href="index.html">
-                    Home <span class="sr-only">(current)</span>
+            <div
+              className="collapse navbar-collapse"
+              id="navbarSupportedContent"
+            >
+              <ul className="navbar-nav  ">
+                <li className="nav-item active">
+                  <a className="nav-link" href="index.html">
+                    Home <span className="sr-only">(current)</span>
                   </a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="about.html">
+                <li className="nav-item">
+                  <a className="nav-link" href="about.html">
                     {" "}
                     About
                   </a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="product.html">
+                <li className="nav-item">
+                  <a className="nav-link" href="product.html">
                     Products
                   </a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="testimonial.html">
+                <li className="nav-item">
+                  <a className="nav-link" href="testimonial.html">
                     Testimonial
                   </a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contact.html">
+                <li className="nav-item">
+                  <a className="nav-link" href="contact.html">
                     Contact Us
                   </a>
                 </li>
               </ul>
-              <div class="user_optio_box">
+              <div className="user_optio_box">
                 <a href="">
-                  <i class="fa fa-user" aria-hidden="true"></i>
+                  <i className="fa fa-user" aria-hidden="true"></i>
                 </a>
                 <a href="">
-                  <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                  <i className="fa fa-shopping-cart" aria-hidden="true"></i>
                 </a>
               </div>
             </div>
@@ -62,28 +65,32 @@ export default function HeaderSection() {
         </div>
       </header>
 
-      <section class="slider_section ">
-        <div class="slider_bg_box">
+      <section className="slider_section ">
+        <div className="slider_bg_box">
           <img src="images/slider-bg.jpg" alt="" />
         </div>
-        <div id="customCarousel1" class="carousel slide" data-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="container ">
-                <div class="row">
-                  <div class="col-md-7">
-                    <div class="detail-box">
+        <div
+          id="customCarousel1"
+          className="carousel slide"
+          data-ride="carousel"
+        >
+          <div className="carousel-inner">
+            <div className="carousel-item active">
+              <div className="container ">
+                <div className="row">
+                  <div className="col-md-7">
+                    <div className="detail-box">
                       <h1>Stylish Watches</h1>
                       <p>
                         Lorem ipsum, dolor sit amet consectetur adipisicing
                         elit. Minus quidem maiores perspiciatis, illo maxime
                         voluptatem a itaque suscipit.
                       </p>
-                      <div class="btn-box">
-                        <a href="" class="btn1">
+                      <div className="btn-box">
+                        <a href="" className="btn1">
                           Contact Us
                         </a>
-                        <a href="" class="btn2">
+                        <a href="" className="btn2">
                           About Us
                         </a>
                       </div>
@@ -92,22 +99,22 @@ export default function HeaderSection() {
                 </div>
               </div>
             </div>
-            <div class="carousel-item">
-              <div class="container ">
-                <div class="row">
-                  <div class="col-md-7">
-                    <div class="detail-box">
+            <div className="carousel-item">
+              <div className="container ">
+                <div className="row">
+                  <div className="col-md-7">
+                    <div className="detail-box">
                       <h1>Stylish Watches</h1>
                       <p>
                         Lorem ipsum, dolor sit amet consectetur adipisicing
                         elit. Minus quidem maiores perspiciatis, illo maxime
                         voluptatem a itaque suscipit.
                       </p>
-                      <div class="btn-box">
-                        <a href="" class="btn1">
+                      <div className="btn-box">
+                        <a href="" className="btn1">
                           Contact Us
                         </a>
-                        <a href="" class="btn2">
+                        <a href="" className="btn2">
                           About Us
                         </a>
                       </div>
@@ -116,22 +123,22 @@ export default function HeaderSection() {
                 </div>
               </div>
             </div>
-            <div class="carousel-item">
-              <div class="container ">
-                <div class="row">
-                  <div class="col-md-7">
-                    <div class="detail-box">
+            <div className="carousel-item">
+              <div className="container ">
+                <div className="row">
+                  <div className="col-md-7">
+                    <div className="detail-box">
                       <h1>Stylish Watches</h1>
                       <p>
                         Lorem ipsum, dolor sit amet consectetur adipisicing
                         elit. Minus quidem maiores perspiciatis, illo maxime
                         voluptatem a itaque suscipit.
                       </p>
-                      <div class="btn-box">
-                        <a href="" class="btn1">
+                      <div className="btn-box">
+                        <a href="" className="btn1">
                           Contact Us
                         </a>
-                        <a href="" class="btn2">
+                        <a href="" className="btn2">
                           About Us
                         </a>
                       </div>
@@ -140,22 +147,22 @@ export default function HeaderSection() {
                 </div>
               </div>
             </div>
-            <div class="carousel-item">
-              <div class="container ">
-                <div class="row">
-                  <div class="col-md-7">
-                    <div class="detail-box">
+            <div className="carousel-item">
+              <div className="container ">
+                <div className="row">
+                  <div className="col-md-7">
+                    <div className="detail-box">
                       <h1>Stylish Watches</h1>
                       <p>
                         Lorem ipsum, dolor sit amet consectetur adipisicing
                         elit. Minus quidem maiores perspiciatis, illo maxime
                         voluptatem a itaque suscipit.
                       </p>
-                      <div class="btn-box">
-                        <a href="" class="btn1">
+                      <div className="btn-box">
+                        <a href="" className="btn1">
                           Contact Us
                         </a>
-                        <a href="" class="btn2">
+                        <a href="" className="btn2">
                           About Us
                         </a>
                       </div>
@@ -164,22 +171,22 @@ export default function HeaderSection() {
                 </div>
               </div>
             </div>
-            <div class="carousel-item">
-              <div class="container ">
-                <div class="row">
-                  <div class="col-md-7">
-                    <div class="detail-box">
+            <div className="carousel-item">
+              <div className="container ">
+                <div className="row">
+                  <div className="col-md-7">
+                    <div className="detail-box">
                       <h1>Stylish Watches</h1>
                       <p>
                         Lorem ipsum, dolor sit amet consectetur adipisicing
                         elit. Minus quidem maiores perspiciatis, illo maxime
                         voluptatem a itaque suscipit.
                       </p>
-                      <div class="btn-box">
-                        <a href="" class="btn1">
+                      <div className="btn-box">
+                        <a href="" className="btn1">
                           Contact Us
                         </a>
-                        <a href="" class="btn2">
+                        <a href="" className="btn2">
                           About Us
                         </a>
                       </div>
@@ -189,11 +196,11 @@ export default function HeaderSection() {
               </div>
             </div>
           </div>
-          <ol class="carousel-indicators">
+          <ol className="carousel-indicators">
             <li
               data-target="#customCarousel1"
               data-slide-to="0"
-              class="active"
+              className="active"
             ></li>
             <li data-target="#customCarousel1" data-slide-to="1"></li>
             <li data-target="#customCarousel1" data-slide-to="2"></li>

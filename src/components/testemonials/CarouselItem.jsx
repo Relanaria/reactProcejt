@@ -1,20 +1,21 @@
+import PropTypes from 'prop-types';
 export default function CouselItem(props) {
   return (
-    <div class="carousel-item">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-10 mx-auto">
-            <div class="box">
-              <div class="img-box">
+    <div className="carousel-item">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-10 mx-auto">
+            <div className="box">
+              <div className="img-box">
                 <img src={props.person.image} alt={props.person.name} />
               </div>
-              <div class="detail-box">
-                <div class="client_info">
-                  <div class="client_name">
+              <div className="detail-box">
+                <div className="client_info">
+                  <div className="client_name">
                     <h5>{props.person.name}</h5>
                     <h6>{props.person.status}</h6>
                   </div>
-                  <i class="fa fa-quote-left" aria-hidden="true"></i>
+                  <i className="fa fa-quote-left" aria-hidden="true"></i>
                 </div>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -32,3 +33,12 @@ export default function CouselItem(props) {
     </div>
   );
 }
+
+
+CouselItem.propTypes = {
+  person: PropTypes.shape({
+    name: PropTypes.string.isRequired,
+    image: PropTypes.string.isRequired,
+    status: PropTypes.string.isRequired
+  }).isRequired
+};

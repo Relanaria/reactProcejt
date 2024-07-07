@@ -1,13 +1,15 @@
+import PropTypes from 'prop-types';
+
 export default function NewArrivalsWatches(props) {
     
     return(
-        <div class="box">
-        <div class="box-content">
-          <div class="img-box">
+        <div className="box">
+        <div className="box-content">
+          <div className="img-box">
             <img src={props.watch.image} alt={props.watch.name}/>
           </div>
-          <div class="detail-box">
-            <div class="text">
+          <div className="detail-box">
+            <div className="text">
               <h6>
                 {props.watch.name}
               </h6>
@@ -15,16 +17,16 @@ export default function NewArrivalsWatches(props) {
                 <span>$</span> {props.watch.price}
               </h5>
             </div>
-            <div class="like">
+            <div className="like">
               <h6>
                 Like
               </h6>
-              <div class="star_container">
-                <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star" aria-hidden="true"></i>
+              <div className="star_container">
+                <i className="fa fa-star" aria-hidden="true"></i>
+                <i className="fa fa-star" aria-hidden="true"></i>
+                <i className="fa fa-star" aria-hidden="true"></i>
+                <i className="fa fa-star" aria-hidden="true"></i>
+                <i className="fa fa-star" aria-hidden="true"></i>
               </div>
             </div>
           </div>
@@ -33,3 +35,12 @@ export default function NewArrivalsWatches(props) {
     )
 
 }
+
+
+NewArrivalsWatches.propTypes = {
+  watch: PropTypes.shape({
+    name: PropTypes.string.isRequired,
+    price: PropTypes.string.isRequired,
+    image: PropTypes.string.isRequired
+  }).isRequired
+};
